@@ -1,0 +1,8 @@
+---
+- name: Configuracao do Docker Server
+  hosts: docker01
+  remote_user: vagrant
+  become: true
+
+  roles:
+    - nexus-container

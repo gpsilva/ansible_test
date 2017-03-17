@@ -1,0 +1,11 @@
+---
+- name: Container Nexus
+  docker:
+    name: nexus
+    image: sonatype/nexus3
+    state: started
+    memory_limit: "1G"
+    volumes:
+    - /data
+    expose:
+    - 8081:8081
