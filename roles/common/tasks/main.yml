@@ -1,8 +1,0 @@
----
-- name: Comando "yum update"
-  apt:
-    update_cache: yes
-
-- name: Comando "yum upgrade"
-  apt:
-    upgrade: dist
