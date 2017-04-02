@@ -6,7 +6,7 @@
     tags: [docker]
 
 - name: Pull jenkins image
-  command: "/usr/bin/docker pull jenkins/5000:jenkao"
+  command: "/usr/bin/docker pull jenkins/5000:jenkao_get"
 
 - name: Add jenkins container
   docker:
